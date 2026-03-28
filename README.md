@@ -4,4 +4,4 @@ The Free WynnCraft BombBell Framework
 
 ## Links
 
-[Discord](https://discord.gg/JHvJEgsCt)
+[Download](https://github.com/bombspy-wynn/BombSpy/releases/latest/) - [Discord](https://discord.gg/JHvJEgsCt)
