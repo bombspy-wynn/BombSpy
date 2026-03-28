@@ -16,6 +16,13 @@ If you did specify one, it will be in `bin/Release/net9.0/YOUR_RUNTIME_HERE/publ
 
 ## Usage
 
+### Environment Variables
+
+* `ASPNETCORE_URLS`: Used to set the host of the server. Example: `http://0.0.0.0:5000`
+* `CONTRIBUTOR_JSON_PATH`: Used to set the path of the `contributors.json` file. Example: `/root/contributors.json`
+
+### Running
+
 Deadass just run the executable and you're set. To add a contributor, edit `contributors.json`.
 It already has an example contributor so you know what format to use.
 If you edit the file while the server is running, the server will detect it and update the contributors live. No restart required.
