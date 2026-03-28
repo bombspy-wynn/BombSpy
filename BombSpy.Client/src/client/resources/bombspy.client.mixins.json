@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.bombspy.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BombModelMixin",
+    "FeatureManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

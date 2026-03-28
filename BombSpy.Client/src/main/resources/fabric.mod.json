@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bombspy",
+  "version": "${version}",
+  "name": "BombSpy",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bombspy/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.bombspy.client.core.BombSpyClient"
+    ],
+    "main": [
+      "xyz.bombspy.BombSpy"
+    ]
+  },
+  "mixins": [
+    "bombspy.mixins.json",
+    {
+      "config": "bombspy.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "wynntils":">=${wynntils_version}"
+  }
+}

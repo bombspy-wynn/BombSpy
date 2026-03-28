@@ -1,0 +1,10 @@
+﻿{
+  "feature.wynntils.bombSpy.name": "BombSpy",
+  "feature.wynntils.bombSpy.description": "Sends and receives bombs with an external server",
+  "feature.wynntils.bombSpy.apiAddress.name": "API Address",
+  "feature.wynntils.bombSpy.apiAddress.description": "The IP and port of the BombSpy server",
+  "feature.wynntils.bombSpy.contributing.name": "Contributing",
+  "feature.wynntils.bombSpy.contributing.description": "Should known bombs be shared with the BombSpy server?",
+  "feature.wynntils.bombSpy.contributingApiKey.name": "Contributing API Key",
+  "feature.wynntils.bombSpy.contributingApiKey.description": "The API key to use when sending bombs to the BombSpy server"
+}
